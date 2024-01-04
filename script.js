@@ -34,8 +34,24 @@ function addItemToList() {
 
     // Clear the textbox
     document.getElementById("textBox").value = "";
+
+        // Check if the todo list is empty and hide/show the todoList element accordingly
+        let todoList = document.getElementById("todoList");
+        if (todoList.children.length === 0) {
+          todoList.style.display = "none";
+        } else {
+          todoList.style.display = "flex";
+        }
   }
 }
+
+      // Check if the todo list is empty and hide/show the todoList element accordingly ///////// This one exists to remove the todoList elements when the page is loaded. for some reason it won't be removed with the same code in the function.
+      if (todoList.children.length === 0) {
+        todoList.style.display = "none";
+      } else {
+        todoList.style.display = "flex";
+      }
+    
 
 function validateForm() {
   // You can add validation logic here if needed
