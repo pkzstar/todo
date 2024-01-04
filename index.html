@@ -1,18 +1,33 @@
-<!doctype html>
-<html>
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-        <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Todo List</title>
+</head>
 
-    </head>
+<body>
+  <div class="grid" style="display: flex;">
+    <p id="listTitle">Todo list</p>
+  </div>
 
-    <body>
-        
-        test
+  <div class="grid">
+    <form name="myForm" id="myForm" onsubmit="return validateForm()">
+      <input id="textBox" type="text" />
+      <input type="button" id="addButton" value="add" onclick="displayName()" />
+      <p id="show_name"></p>
+      <br>
+    </form>
+  </div>
 
-        <script src="script.js"></script>
-    </body>
+  <div id="todoList">
+    <!-- Display the todo list here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>

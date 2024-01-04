@@ -1,0 +1,84 @@
+html {
+    background-image: url(https://2.bp.blogspot.com/-vM0jXCySZ1g/XOlXujbjcvI/AAAAAAAADIU/jj6yvAKidsMSQhyQDv710BD44CHjkK0zgCKgBGAs/w0/hatsune-miku-anime-girl-uhdpaper.com-4K-190.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+
+}
+
+.grid {
+    border-color: black;
+    color: aliceblue;
+    font-size: larger;
+    background-color: slateblue;
+    border-style: double ;
+    width: fit-content;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    border-color: aqua;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 25px 25px 25px 25px;
+
+
+}
+#todoList {
+    flex-direction: column;
+    border-color: black;
+    color: aliceblue;
+    font-size: larger;
+    background-color: slateblue;
+    border-style: double ;
+    width: fit-content;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-color: aqua;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 25px 25px 25px 25px;
+}
+form#myForms {
+align-items: center;
+justify-content: center;
+}
+input#addButton {
+    float: left;
+    border-style: inset;
+    border-color: aqua;
+    border-width: 3px;
+    color: black;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+}
+input#textBox {
+    float: right;
+    border-color: aqua;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 25px 25px 25px 25px;
+}
+input {
+    background-color: white;
+    float:left;
+    margin-right: 10px;
+}
+p {
+    color: black;
+    float: right;
+    margin-top: -2px;
+}
+p#listTitle {
+    margin-bottom: -5px;
+}
+div {
+    align-items: center;
+    margin-top: 15px;
+}
